@@ -1,10 +1,10 @@
 #include <vector>
-#include "Student.h"
+#include "Student_Class.h"
 #include "getData.h"
 #include "fileCreate.h"
 #include "dataView.h"
 
-
+using namespace std;
 
 int main() {
     randFileCreate();

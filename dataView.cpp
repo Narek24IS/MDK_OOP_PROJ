@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "Student.h"
+#include "Student_Class.h"
 
 using namespace std;
 

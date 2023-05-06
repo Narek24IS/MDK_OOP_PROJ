@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include "Student.h"
+#include "Student_Class.h"
 
 using namespace std;
 
@@ -15,7 +15,8 @@ bool fileDataGet(vector<Student> &students) {
     if (in.is_open()) {
         size_t i = 0;
         while (in >> fam >> io >> buf >> m1 >> buf >> m2 >> buf >> m3) {
-            students.emplace_back(Student(fam+" "+io, m1, m2, m3));
+            string fio = fam + " " + io;
+            students.emplace_back(fio, m1, m2, m3);
             i++;
         }
         flag = true;
