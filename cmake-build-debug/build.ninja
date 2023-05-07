@@ -61,14 +61,14 @@ build CMakeFiles/MDK_OOP_PROJ.dir/getData.cpp.obj: CXX_COMPILER__MDK_OOP_PROJ_De
   OBJECT_DIR = CMakeFiles\MDK_OOP_PROJ.dir
   OBJECT_FILE_DIR = CMakeFiles\MDK_OOP_PROJ.dir
 
-build CMakeFiles/MDK_OOP_PROJ.dir/fileCreate.cpp.obj: CXX_COMPILER__MDK_OOP_PROJ_Debug C$:/Users/Hikinari/Documents/CPP/MDK$ OOP$ PROJ/fileCreate.cpp || cmake_object_order_depends_target_MDK_OOP_PROJ
-  DEP_FILE = CMakeFiles\MDK_OOP_PROJ.dir\fileCreate.cpp.obj.d
+build CMakeFiles/MDK_OOP_PROJ.dir/dataFileCreate.cpp.obj: CXX_COMPILER__MDK_OOP_PROJ_Debug C$:/Users/Hikinari/Documents/CPP/MDK$ OOP$ PROJ/dataFileCreate.cpp || cmake_object_order_depends_target_MDK_OOP_PROJ
+  DEP_FILE = CMakeFiles\MDK_OOP_PROJ.dir\dataFileCreate.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MDK_OOP_PROJ.dir
   OBJECT_FILE_DIR = CMakeFiles\MDK_OOP_PROJ.dir
 
-build CMakeFiles/MDK_OOP_PROJ.dir/dataView.cpp.obj: CXX_COMPILER__MDK_OOP_PROJ_Debug C$:/Users/Hikinari/Documents/CPP/MDK$ OOP$ PROJ/dataView.cpp || cmake_object_order_depends_target_MDK_OOP_PROJ
-  DEP_FILE = CMakeFiles\MDK_OOP_PROJ.dir\dataView.cpp.obj.d
+build CMakeFiles/MDK_OOP_PROJ.dir/allowFileCreate.cpp.obj: CXX_COMPILER__MDK_OOP_PROJ_Debug C$:/Users/Hikinari/Documents/CPP/MDK$ OOP$ PROJ/allowFileCreate.cpp || cmake_object_order_depends_target_MDK_OOP_PROJ
+  DEP_FILE = CMakeFiles\MDK_OOP_PROJ.dir\allowFileCreate.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\MDK_OOP_PROJ.dir
   OBJECT_FILE_DIR = CMakeFiles\MDK_OOP_PROJ.dir
@@ -87,7 +87,7 @@ build CMakeFiles/MDK_OOP_PROJ.dir/Student_Class.cpp.obj: CXX_COMPILER__MDK_OOP_P
 #############################################
 # Link the executable MDK_OOP_PROJ.exe
 
-build MDK_OOP_PROJ.exe: CXX_EXECUTABLE_LINKER__MDK_OOP_PROJ_Debug CMakeFiles/MDK_OOP_PROJ.dir/main.cpp.obj CMakeFiles/MDK_OOP_PROJ.dir/getData.cpp.obj CMakeFiles/MDK_OOP_PROJ.dir/fileCreate.cpp.obj CMakeFiles/MDK_OOP_PROJ.dir/dataView.cpp.obj CMakeFiles/MDK_OOP_PROJ.dir/Student_Class.cpp.obj
+build MDK_OOP_PROJ.exe: CXX_EXECUTABLE_LINKER__MDK_OOP_PROJ_Debug CMakeFiles/MDK_OOP_PROJ.dir/main.cpp.obj CMakeFiles/MDK_OOP_PROJ.dir/getData.cpp.obj CMakeFiles/MDK_OOP_PROJ.dir/dataFileCreate.cpp.obj CMakeFiles/MDK_OOP_PROJ.dir/allowFileCreate.cpp.obj CMakeFiles/MDK_OOP_PROJ.dir/Student_Class.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MDK_OOP_PROJ.dir

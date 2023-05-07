@@ -9,15 +9,15 @@ using namespace std;
 bool fileDataGet(vector<Student> &students) {
     ifstream file;
     enum class Data {
-        FIO = 0, MATH = 1, INFORM = 2, RUS = 3, EMPTY = 4
+        FIO, MATH, INFORM, RUS, EMPTY
     };
-    Data line = Data::FIO;
+    Data line{Data::FIO};
     file.open("Students.txt");
-    bool flag = false;
+    bool flag{false};
     string fio, buf;
     int64_t m1, m2, m3;
     if (file.is_open()) {
-        size_t i = 0;
+        size_t i{0};
         while (!file.eof()) {
             switch (line) {
                 case Data::FIO:

@@ -10,7 +10,7 @@ using namespace std;
 bool randFileCreate() {
     ofstream out;
     out.open("Students.txt");
-    bool flag = false;
+    bool flag{false};
     if (out.is_open()) {
         vector<string> studentList = {"Ivanov A.I.", "Panin G.C.", "Frolov I.V.", "Zavaeva N.I.",
                                       "Lapova I.M.", "Vorobyov P.A.", "Danielyan N.S.", "Melnik M.A.",
