@@ -7,20 +7,47 @@
 using namespace std;
 
 bool fileDataGet(vector<Student> &students) {
-    ifstream in;
-    in.open("Students.txt");
+    ifstream file;
+    enum class Data {
+        FIO = 0, MATH = 1, INFORM = 2, RUS = 3, EMPTY = 4
+    };
+    Data line = Data::FIO;
+    file.open("Students.txt");
     bool flag = false;
-    string fam, io, buf;
+    string fio, buf;
     int64_t m1, m2, m3;
-    if (in.is_open()) {
+    if (file.is_open()) {
         size_t i = 0;
-        while (in >> fam >> io >> buf >> m1 >> buf >> m2 >> buf >> m3) {
-            string fio = fam + " " + io;
-            students.emplace_back(fio, m1, m2, m3);
-            i++;
+        while (!file.eof()) {
+            switch (line) {
+                case Data::FIO:
+                    getline(file, fio);
+                    line = Data::MATH;
+                    break;
+                case Data::MATH:
+                    getline(file, buf);
+                    m1 = buf[buf.size() - 1] - '0';
+                    line = Data::INFORM;
+                    break;
+                case Data::INFORM:
+                    getline(file, buf);
+                    m2 = buf[buf.size() - 1] - '0';
+                    line = Data::RUS;
+                    break;
+                case Data::RUS:
+                    getline(file, buf);
+                    m3 = buf[buf.size() - 1] - '0';
+                    line = Data::EMPTY;
+                    break;
+                case Data::EMPTY:
+                    getline(file, buf);
+                    students.emplace_back(fio, m1, m2, m3);
+                    line = Data::FIO;
+                    break;
+            }
         }
         flag = true;
-        in.close();
+        file.close();
     }
 
     if (flag) {

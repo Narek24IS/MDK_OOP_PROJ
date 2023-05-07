@@ -12,7 +12,7 @@ Student::Student(string &FIO, int64_t m1, int64_t m2, int64_t m3) :
         mark1(m1),
         mark2(m2),
         mark3(m3) {
-    if (m1 + m2 + m2 <= 12) { setAllow(true); }
+    if (m1 + m2 + m2 >= 12) { setAllow(true); }
     else { setAllow(false); }
 }
 

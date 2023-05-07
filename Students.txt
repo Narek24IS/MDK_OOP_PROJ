@@ -1,11 +1,55 @@
-Panin G.C. Matematika: 5 Informatika: 2 Russkiy: 4
-Haritonova A.V. Matematika: 3 Informatika: 2 Russkiy: 4
-Ivanov A.I. Matematika: 5 Informatika: 5 Russkiy: 3
-Frolov I.V. Matematika: 3 Informatika: 4 Russkiy: 2
-Kiracheva V.V. Matematika: 3 Informatika: 3 Russkiy: 3
-Danielyan N.S. Matematika: 3 Informatika: 5 Russkiy: 2
-Melnik M.A. Matematika: 5 Informatika: 5 Russkiy: 2
-Vorobyov P.A. Matematika: 3 Informatika: 5 Russkiy: 5
-Lapova I.M. Matematika: 3 Informatika: 4 Russkiy: 2
-Zavaeva N.I. Matematika: 3 Informatika: 3 Russkiy: 4
-Nikodimova P.A. Matematika: 3 Informatika: 3 Russkiy: 5
+Kiracheva V.V.
+Matematika: 2
+Informatika: 5
+Russkiy: 3
+
+Panin G.C.
+Matematika: 4
+Informatika: 3
+Russkiy: 3
+
+Lapova I.M.
+Matematika: 4
+Informatika: 5
+Russkiy: 5
+
+Nikodimova P.A.
+Matematika: 3
+Informatika: 2
+Russkiy: 3
+
+Frolov I.V.
+Matematika: 2
+Informatika: 2
+Russkiy: 5
+
+Vorobyov P.A.
+Matematika: 4
+Informatika: 2
+Russkiy: 3
+
+Ivanov A.I.
+Matematika: 4
+Informatika: 4
+Russkiy: 2
+
+Melnik M.A.
+Matematika: 2
+Informatika: 5
+Russkiy: 2
+
+Danielyan N.S.
+Matematika: 2
+Informatika: 5
+Russkiy: 3
+
+Zavaeva N.I.
+Matematika: 3
+Informatika: 2
+Russkiy: 3
+
+Haritonova A.V.
+Matematika: 4
+Informatika: 2
+Russkiy: 3
+

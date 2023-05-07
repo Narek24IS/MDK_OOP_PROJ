@@ -19,10 +19,10 @@ bool randFileCreate() {
         mt19937 gen(rd());
         shuffle(studentList.begin(), studentList.end(), gen);
         for (const auto &fio: studentList) {
-            out << fio;
-            out << " Matematika: " << gen() % 4 + 2;
-            out << " Informatika: " << gen() % 4 + 2;
-            out << " Russkiy: " << gen() % 4 + 2;
+            out << fio << endl;
+            out << "Matematika: " << gen() % 4 + 2 << endl;
+            out << "Informatika: " << gen() % 4 + 2 << endl;
+            out << "Russkiy: " << gen() % 4 + 2 << endl;
             out << endl;
         }
         flag = true;

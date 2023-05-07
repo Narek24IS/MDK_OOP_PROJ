@@ -1,8 +1,8 @@
 #include <vector>
 #include "Student_Class.h"
 #include "getData.h"
-#include "fileCreate.h"
-#include "dataView.h"
+#include "dataFileCreate.h"
+#include "allowFileCreate.h"
 
 using namespace std;
 
